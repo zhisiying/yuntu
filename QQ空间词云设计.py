@@ -47,7 +47,7 @@ for v, n in seg_list:
     print(v + '\t' + str(int(n * 10000)))
 # back_coloring = imread(os.path.join(d, "./ce.jpg"))
 wordcloud = WordCloud(random_state=42, font_path=r'C:/Users/Windows/fonts/simkai.ttf',
-                      background_color="blue",
+                      background_color="black",
                       max_words=2000,
                       # mask=back_coloring,#背景图
                       max_font_size=50,
